@@ -1,0 +1,202 @@
+:root{
+    --bg-color: #fff;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    font-family: "Times New Roman", Georgia, Serif;
+    scroll-behavior: smooth;
+    transition: .4s;
+}
+
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+}
+
+
+
+
+
+header{
+    width: 100%;
+    background: var(--bg-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 2px 3px rgba(0,0,0,0.9);
+    padding: 6px 35px;
+    position: fixed;
+    z-index: 1001;
+}
+
+
+
+.logo{
+    cursor: pointer;
+    float: left;
+    font-size: 0.9rem;
+    padding: 7px 10px;
+}
+
+.logo:hover{
+    background-color: #808080;
+}
+
+
+
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #3d3b3b;
+    font-weight: 600;
+    padding: 7px 20px;
+}
+
+ul li a:hover{
+    background-color: #808080;
+}
+
+
+
+.navbar h1{
+    position: absolute;
+    top: 36pc;
+    left: 2rem;
+    color:#808080;
+}
+
+
+
+
+
+
+
+/* Styling the about section */
+#about{
+    width: 100%;
+    margin: 0 auto;
+    padding: 100px 5%;
+}
+
+#about .row{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#about .container{
+    width: 500px;
+}
+
+#about .container h2{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+#about .container h4{
+    text-align: center;
+    font-size: 1.125rem;
+    margin-bottom: 30px;
+}
+
+
+#about .container p{
+    font-size: 1.125rem;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+#about #grey{
+    color: #808080;
+}
+
+
+
+/* Styling the Menu Section */
+
+#menu{
+    max-width: 90%;
+    width: 100%;
+    margin: 0 auto;
+    padding: 100px 6%;
+    border-bottom: 1px solid #808080;
+}
+
+#menu .row{
+    display: flex;
+    justify-content: space-between;
+}
+
+#menu .container{
+    width: 500px;
+}
+
+#menu h2{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 35px;
+}
+
+#menu .card{
+    margin-bottom: 40px;
+}
+
+#menu .card p{
+    color: #808080;
+}
+
+
+
+/* Styling the Contact Us section */
+
+#contact{
+    max-width: 90%;
+    width: 100%;
+    margin: 0 auto;
+    padding: 100px 6%;
+}
+
+#contact h2{
+    font-size: 2.5rem;
+    margin-bottom: 35px;
+}
+
+#contact p{
+    font-size: 1.124rem;
+    margin-bottom: 25px;
+}
+
+#contact p b{
+    color: #3c425f;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact form input[type="text"], input[type="datetime-local"]{
+    margin-bottom: 15px;
+    padding: 10px 20px;
+    border: none;
+    border-bottom: 1px solid #808080;
+}
+
+#contact form input[type="submit"]{
+    max-width: 150px;
+    padding: 10px;
+    border: none;
+}
+
+/* Media queries */
